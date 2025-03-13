@@ -1,5 +1,7 @@
 package ihmsimple.ctrl;
 
+import ihmsimple.services.ServiceDevine;
+
 /**
  * Classe représentant le contrôleur de l'application MVC "IhmSimple".
  * 
@@ -21,7 +23,7 @@ public class Controller {
     /**
      * Référence au serviceDevine de l'application.
      */
-    // VOTRE CODE ICI...
+    ServiceDevine refServiceDevine;
 
     /**
      * Constructeur du contrôleur. Comme toujours, le travail N°1 consiste à
@@ -31,7 +33,7 @@ public class Controller {
      * nombre, utilisez NOMBRE_INVALIDE.
      */
     public Controller() {
-        // VOTRE CODE ICI...
+        
     }
 
     /**
